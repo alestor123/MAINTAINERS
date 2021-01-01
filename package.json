@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for thanking all the maintainers of the pkgs that you use in your project",
   "main": "App.js",
+  "bin": {
+    "maintainers": "App.js"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "chalk": "^4.1.0",
